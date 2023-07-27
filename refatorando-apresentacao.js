@@ -15,11 +15,11 @@ const dadosPessoa = [{
 function apresentar(pessoas) {
         pessoas.forEach((pessoa) => {
                 if (pessoa.idade >= 18 && pessoa.idade < 66) {
-                        console.log(`Olá! Meu nome é ${pessoa.nome}, sou um adulto(a) de ${pessoa.idade}, ${pessoa.altura}m de altura e sou ${pessoa.profissao}.`)
+                        console.log(`Olá! Meu nome é ${pessoa.nome}, sou um adulto(a) de ${pessoa.idade} anos, ${pessoa.altura}m de altura e sou ${pessoa.profissao}.`)
                 } else if (pessoa.idade >= 66) {
-                        console.log(`Olá! Meu nome é ${pessoa.nome}, sou um idoso(a) de ${pessoa.idade}, ${pessoa.altura}m de altura e sou ${pessoa.profissao}.`)
+                        console.log(`Olá! Meu nome é ${pessoa.nome}, sou um idoso(a) de ${pessoa.idade} anos, ${pessoa.altura}m de altura e sou ${pessoa.profissao}.`)
                 } else {
-                        console.log(`Olá! Meu nome é ${pessoa.nome}, sou um jovem de ${pessoa.idade}, ${pessoa.altura}m de altura e sou ${pessoa.profissao}.`)
+                        console.log(`Olá! Meu nome é ${pessoa.nome}, sou um jovem de ${pessoa.idade} anos, ${pessoa.altura}m de altura e sou ${pessoa.profissao}.`)
                 }
         })
 }
